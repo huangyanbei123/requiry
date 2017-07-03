@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>ShapePlank - Basic scene</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+    <script src="libary/babylon.js"></script>
+    <script src="libary/clipper.js"></script>
+    <script src="libary/require.js"></script>
+    <!-- <script src="build/plank.js"></script>  -->
+    <script src="build/viewer.js"></script>
+    <!-- optional physics engine -->
+    <script>
+        function start() {
+            //require.config(REQUIRE_CONFIG);
+            require(['main'], function(space) {
+                space.start();
+            })
+        }
+    </script>
+</head>
+
+<body onLoad="start()">
+    <canvas id="renderCanvas"></canvas>
+</body>
+
+</html>

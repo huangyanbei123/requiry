@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "allowJs": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "noImplicitUseStrict": true,
+        "moduleResolution": "node",
+        "module": "amd",
+        "outFile": "build/viewer.js",
+        "declaration": true
+    },
+    "buildOnSave": false,
+    "compileOnSave": true,
+    "filesGlob": [
+        "../typings/**/*.d.ts",
+        "./**/*.ts",
+        "./**/*.tsx"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": false,
+        "formatOnSave": true
+    },
+    "formatCodeOptions": {
+        "indentSize": 3,
+        "tabSize": 3,
+        "newLineCharacter": "\r\n",
+        "convertTabsToSpaces": false,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": false,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    }
+}

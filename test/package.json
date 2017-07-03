@@ -1,0 +1,11 @@
+{
+    "name": "curve",
+    "version": "1.0.0",
+    "description": "curveEditor developing in Skong",
+    "main": "index.js",
+    "scripts": {
+        "test": "del /q/a/f build\\*.* && tsc"
+    },
+    "author": "HUANG.Y & TAN.J",
+    "license": "ISC"
+}
